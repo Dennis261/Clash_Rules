@@ -1,0 +1,13 @@
+# Cursor 编辑器和后端服务
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,anysphere.co
+DOMAIN-SUFFIX,anysphere.inc
+
+# 常见 API / 仓库索引端点
+DOMAIN,api2.cursor.sh
+DOMAIN,api3.cursor.sh
+DOMAIN,repo42.cursor.sh
+DOMAIN,us-asia.gcpp.cursor.sh

@@ -1,0 +1,41 @@
+# 其它常见 AI 厂商和聚合平台
+
+# AI 搜索 / 助手
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,character.ai
+
+# 模型厂商
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,meta.ai
+
+# 模型网关 / 开发平台
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,groqcloud.com
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,lepton.ai
+
+# 图像 / 音频 / 视频生成
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,elevenlabs.io
+
+# Microsoft Copilot 入口，细分规则优先于原 Microsoft/Bing 组
+DOMAIN,copilot.microsoft.com
+DOMAIN,sydney.bing.com

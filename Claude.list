@@ -1,0 +1,8 @@
+# Anthropic Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# Claude Web 常见统计资源
+DOMAIN,cdn.usefathom.com
