@@ -13,7 +13,7 @@ log-level: warning
 external-controller: "127.0.0.1:9090"
 
 find-process-mode: strict
-global-client-fingerprint: chrome
+# TLS 指纹如有需要，请在代理节点内设置 client-fingerprint。
 
 profile:
   store-selected: true
@@ -55,14 +55,15 @@ dns:
     - +.localhost
     - +.test
     - +.local
-    - +.+m2m
+    # +. 匹配域名及其子域名，后面的标签不能再带 +。
+    - "+.m2m"
     - +.$injections.adguard.org
     - +.$local.adguard.org
-    - +.+_tcp
-    - +.+bogon
-    - +.+_msdcs
-    - +.+lan
-    - +.+localdomain
+    - "+._tcp"
+    - "+.bogon"
+    - "+._msdcs"
+    - "+.lan"
+    - "+.localdomain"
     - +.home.arpa
     - +.10.in-addr.arpa
     - +.16.172.in-addr.arpa
@@ -164,7 +165,15 @@ dns:
     - +.stun.l.google.com
     - fcm.googleapis.com
     - mtalk.google.com
-    - alt*-mtalk.google.com
+    # 通配符不能嵌入标签，显式列出 FCM 备用地址。
+    - alt1-mtalk.google.com
+    - alt2-mtalk.google.com
+    - alt3-mtalk.google.com
+    - alt4-mtalk.google.com
+    - alt5-mtalk.google.com
+    - alt6-mtalk.google.com
+    - alt7-mtalk.google.com
+    - alt8-mtalk.google.com
     - +.push.hicloud.com
     - +.push.dbankcloud.com
     - api.xmpush.xiaomi.com
